@@ -1,0 +1,13 @@
+# Large binary files - don't upload to Git
+*.zip
+*.img
+*.apk
+
+# Factory image directory
+sargo-sp2a.220505.008/
+
+# Backup directory with large images
+clean_factory_backup/
+
+# System files
+.DS_Store
