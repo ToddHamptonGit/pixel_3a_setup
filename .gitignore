@@ -6,8 +6,15 @@
 # Factory image directory
 sargo-sp2a.220505.008/
 
-# Backup directory with large images
-clean_factory_backup/
+# Large backup files, but keep scripts and docs
+clean_factory_backup/*.img
+clean_factory_backup/*.zip
+clean_factory_backup/flash-*.sh
+clean_factory_backup/flash-*.bat
+clean_factory_backup/bootloader-*
+clean_factory_backup/radio-*
+clean_factory_backup/android-info.txt
+clean_factory_backup/super_empty.img
 
 # System files
 .DS_Store
