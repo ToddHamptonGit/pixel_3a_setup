@@ -1,4 +1,4 @@
-# Clean Factory Image Flash for Pixel 3a
+# Clean Factory Image Flash for Pixel 3a - Do this first
 
 Given that this device previously had development tools, we should flash a completely clean factory image.
 
